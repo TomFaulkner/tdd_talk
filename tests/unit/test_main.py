@@ -18,3 +18,7 @@ def test_func_a():
 ])
 def test_is_palindrome(maybe_palindrome, expected_result):
     assert pyt.is_palindrome(maybe_palindrome) == expected_result
+
+
+def test_upload_the_things():
+    assert pyt.upload_the_things() is True
